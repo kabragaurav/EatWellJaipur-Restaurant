@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DISCOUNTS</title>
+  <link rel="icon" href="img/core-img/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!------------------------fa fa------------------------------------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+    font-family: Arial;
+}
+
+.coupon {
+    border: 5px outset darkorange;
+    width: 80%;
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.container {
+    padding: 2px 16px;
+    background-color: #f1f1f1;
+    border-radius: 15px;
+}
+
+  .button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 20px;
+    border-radius: 50px 15px;
+}
+.button:hover{
+  background-color: darkblue;
+  color:lightyellow;
+}
+</style>
+</head>
+<body style="background-image: url(discount_bg.jpg);background-repeat: no-repeat; background-size: cover;">
+<div >
+  <a href="index.html" class="button" ><i class="fa fa-home fa-fw fa-2x" title="Take Me Back To Home..."></i></a>
+</div>
+<div class="coupon">
+  <div class="container">
+    <img src="life_of_pie.png">
+  </div>
+  <img src="./img/g3.jpg" alt="Avatar" style="width:100%;">
+  <div class="container" style="background-color:white">
+    <h2><b>15% OFF YOUR PURCHASE of HomeMade Burgers</b></h2> 
+  </div>
+  <div class="container">
+    <p id="demo1"></p>
+     <script>
+function myFunction(a, b) {
+    var dateObj = new Date();
+	var month = dateObj.getUTCMonth() + 1; //months from 1-12
+	var day = dateObj.getUTCDate();
+	var year = dateObj.getUTCFullYear();
+	newdate1 = (year +  month  + day+1099)%57+8000;
+	return newdate1;
+}
+document.getElementById("demo1").innerHTML = "The promo code : " + window.myFunction(); 
+</script>
+</script>
+  </div>
+</div>
+<br>
+<div class="coupon">
+  <div class="container">
+    <img src="life_of_pie.png">
+  </div>
+  <img src="./img/g2.jpg" alt="Avatar" style="width:100%;">
+  <div class="container" style="background-color:white">
+    <h2><b>18% OFF YOUR PURCHASE of Cream Rolls</b></h2> 
+  </div>
+  <div class="container">
+  	<p id="demo2"></p>
+     <script>
+function myFunction(a, b) {
+    var dateObj = new Date();
+	var month = dateObj.getUTCMonth() + 1; //months from 1-12
+	var day = dateObj.getUTCDate();
+	var year = dateObj.getUTCFullYear();
+	newdate2 = (year +  month  + day+3647)%78+2786;
+	return newdate2;
+}
+document.getElementById("demo2").innerHTML = "The promo code : " + window.myFunction(); 
+</script>
+</script>
+  </div>
+</div>
+<br>
+<div class="coupon">
+  <div class="container">
+    <img src="life_of_pie.png">
+  </div>
+  <img src="./img/bg7.jpg" alt="Avatar" style="width:100%;">
+  <div class="container" style="background-color:white">
+    <h2><b>10% OFF YOUR PURCHASE of Shakes</b></h2> 
+  </div>
+  <div class="container">
+    <p id="demo3"></p>
+    <script>
+function myFunction(a, b) {
+    var dateObj = new Date();
+	var month = dateObj.getUTCMonth() + 1; //months from 1-12
+	var day = dateObj.getUTCDate();
+	var year = dateObj.getUTCFullYear();
+	newdate3 = (year +  month  + day+8153)%3+1930;
+	return newdate3;
+}
+document.getElementById("demo3").innerHTML = "The promo code : " + window.myFunction(); 
+</script>
+  </div>
+</div>
+<br>
+<div class="coupon">
+  <div class="container">
+    <img src="life_of_pie.png">
+  </div>
+  <img src="./img/breadcumb4.jpg" alt="Avatar" style="width:100%;">
+  <div class="container" style="background-color:white">
+    <h2><b>12% OFF YOUR PURCHASE of Salad</b></h2> 
+  </div>
+  <div class="container">
+    <p id="demo4"</p>
+<script>
+function myFunction(a, b) {
+    var dateObj = new Date();
+	var month = dateObj.getUTCMonth() + 1; //months from 1-12
+	var day = dateObj.getUTCDate();
+	var year = dateObj.getUTCFullYear();
+
+	newdate4 = (year +  month  + day+7774)%4+1000;
+	return newdate4;
+}
+document.getElementById("demo4").innerHTML = "The promo code : "+window.myFunction(); 
+</script>
+  </div>
+</div>
+
+</body>
+</html> 

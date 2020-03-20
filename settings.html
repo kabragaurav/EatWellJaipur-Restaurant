@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="text/css" href="setting_icon.jpg">
+	<title>Admin Settings</title>
+	<style type="text/css">
+		.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 1480px;
+    margin: 0 auto;
+    border-radius: 15px 50px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: center;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 650px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: darkblue;color:yellow;}
+
+.dropdown:hover .dropdown-content {display: block;border-radius: 50px;}
+
+.dropdown:hover .dropbtn {background-color: black;color: white;border-radius: 50px;}
+	</style>
+</head>
+<body style="background-image: url(setting_bg.jpg);background-repeat: no-repeat; background-size: cover;">
+<div class="dropdown">
+  <button class="dropbtn">--Admin Management Section--</button>
+  <div class="dropdown-content">
+    <a href="addAdmin.php">ADD An Admin</a>
+    <a href="removeAdmin.php">REMOVE An Admin</a>
+    <a href="dispAdmin.php">DISPLAY Admin</a>
+    <a href="member.php"><h3 style="color:red";>CANCEL & RETURN</h3></a>
+  </div>
+</div>
+</body>
+</html>
